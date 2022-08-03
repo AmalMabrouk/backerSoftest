@@ -1,4 +1,4 @@
-import 'package:bakersofttest/blocs/bloc_details/product_details_bloc.dart';
+import 'package:bakersofttest/blocs/product_details_bloc/product_details_bloc.dart';
 import 'package:bakersofttest/blocs/shopping_cart_bloc/shopping_bloc.dart';
 import 'package:bakersofttest/models/product.dart';
 import 'package:bakersofttest/widgets/shopping_cart.dart';
@@ -18,8 +18,6 @@ class DetailsView extends StatelessWidget {
         BlocProvider(
             create: (context) =>
                 ProductDetailsBloc()..add(LoadEvent(product: product))),
-        BlocProvider.value(value: BlocProvider.of<ShoppingBloc>(context)),
-       // BlocProvider(create: (context) => ShoppingBloc()..add(LoadShoppingEvent()))
       ],
       child: BlocBuilder<ProductDetailsBloc, ProductDetailsState>(
           builder: (context, state) {

@@ -2,10 +2,11 @@ import 'dart:convert';
 
 import 'package:bakersofttest/models/product.dart';
 import 'package:flutter/services.dart';
+import 'package:injectable/injectable.dart';
 
+@injectable
 class DataService {
   List<Product> list = List.empty(growable: true);
-
   Future<List<Product>> getProducts() async {
    final String response = await rootBundle.loadString('assets/products.json');
    final data = await json.decode(response);
