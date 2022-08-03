@@ -1,0 +1,55 @@
+{
+  "items": [
+
+    {
+      "id": "p2",
+      "name": "Item 2",
+      "price": 2.50,
+      "imageUrl": "https://www.unileverfoodsolutions.ch/dam/global-ufs/mcos/dach/calcmenu-recipes/ch-recipes/2019/sandwich-club/salamisandwich/main-header.jpg"
+    },
+    {
+      "id": "p3",
+      "name": "Item 3",
+      "price": 3.50,
+      "imageUrl": "https://hotelpros.fr/5680/corbeille-%C3%A0-pain-coton-phr.jpg"
+    },
+    {
+      "id": "p4",
+      "name": "Item 3",
+      "price": 2.0,
+      "imageUrl": "https://www.eatclub.tv/wp-content/uploads/sites/4/2021/11/grilledcheesejane-scaled.jpg"
+    },
+    {
+      "id": "p1",
+      "name": "Item 1",
+      "price": 0.50,
+      "imageUrl": "https://www.gutekueche.at/storage/media/recipe-category/7755/conv/burger-rezepte-default.jpg"
+
+    },
+    {
+      "id": "p5",
+      "name": "Item 3",
+      "price": 2.50,
+      "imageUrl": "https://live.backmomente.de/wp-content/uploads/2018/05/Weizenvollkornbrot2.jpg"
+    },
+    {
+      "id": "p6",
+      "name": "Item 3",
+      "price": 3.0,
+      "imageUrl": "https://i.ytimg.com/vi/3X65F4Bj2VA/maxresdefault.jpg"
+    },
+    {
+      "id": "p6",
+      "name": "Item 3",
+      "price": 6.50,
+      "imageUrl": "https://www.baeckerei-lechtermann.de/Sites/lechtermann.de/content/broetchen/img/IMG_9674_v11%20(1)-image.jpg"
+    },
+    {
+      "id": "p6",
+      "name": "Item 3",
+      "price": 6.0,
+      "imageUrl":"https://starke-baecker.de/images/stories/virtuemart/product/Wellenreiter.jpg"
+
+    }
+  ]
+}
