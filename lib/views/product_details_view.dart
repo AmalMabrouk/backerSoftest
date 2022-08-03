@@ -42,8 +42,8 @@ class DetailsView extends StatelessWidget {
             body: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Image.network(
-                  product.imageUrl,
+                Image.asset(
+                  "assets/images/${product.imageUrl}",
                   fit: BoxFit.fill,
                 ),
                 const SizedBox(
@@ -124,7 +124,7 @@ class DetailsView extends StatelessWidget {
           );
         }
         return Container(
-          color: Colors.green,
+          color: Colors.white,
         );
       }),
     );

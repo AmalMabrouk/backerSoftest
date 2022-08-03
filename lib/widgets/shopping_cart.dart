@@ -52,7 +52,7 @@ class ShoppingCart extends StatelessWidget {
         );
       }
       return Container(
-        color: Colors.green,
+        color: Colors.white,
       );
     });
   }

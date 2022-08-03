@@ -26,7 +26,6 @@ class ProductsView extends StatelessWidget {
                 height: 1,
               ),
             ),
-            leading: const BackButton(color: Colors.black),
             backgroundColor: Colors.white,
             elevation: 0,
             actions: const <Widget>[ShoppingCart()],
@@ -74,8 +73,8 @@ class ProductsView extends StatelessWidget {
                                         borderRadius:
                                             const BorderRadius.vertical(
                                                 top: Radius.circular(8)),
-                                        child: Image.network(
-                                          product.imageUrl,
+                                        child: Image.asset(
+                                          "assets/images/${product.imageUrl}",
                                           fit: BoxFit.fill,
                                         ))),
                                 Container(

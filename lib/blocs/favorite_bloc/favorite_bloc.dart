@@ -14,12 +14,9 @@ class FavoriteBloc extends Bloc<FavoriteEvent, FavoriteState> {
       emit(FavoriteLoadedState(favoriteList: List.empty(growable: true)));
     });
     on<AddToFavoriteEvent>((event, emit) async {
-      print("faaaaaaaa");
 
       if (state is FavoriteLoadedState) {
         final state = this.state as FavoriteLoadedState;
-print("adddddddd");
-print(event.product.name);
         emit(FavoriteLoadedState(
             favoriteList: List.from(state.favoriteList)..add(event.product)));
       }

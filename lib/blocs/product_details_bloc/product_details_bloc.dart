@@ -14,14 +14,12 @@ class ProductDetailsBloc
   ProductDetailsBloc() : super(LoadingState()) {
     on<LoadEvent>((event, emit) async {
 
-      print("productdetzils list_products_bloc");
       emit(DetailsLoadedState(product: event.product, price: event.product.price));
     });
     on<AddProductEvent>((event, emit) async {
       final state = this.state as DetailsLoadedState;
       double price = state.price + state.product.price;
       int nbProducts = state.nbProducts + 1;
-      print("inside list_products_bloc");
       emit(
           DetailsLoadedState(product: state.product, price: price, nbProducts: nbProducts));
     });
